@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <category
+            name="Sample Category"
+            id="view">
+      </category>
+      <view
+            id="view.views.SampleView"
+            name="Sample View"
+            icon="icons/sample.png"
+            class="view.views.SampleView"
+            category="view"
+            inject="true">
+      </view>
+   </extension>
+
+</plugin>
